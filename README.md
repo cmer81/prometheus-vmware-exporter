@@ -1,6 +1,8 @@
 # prometheus-vmware-exporter
 Collect metrics ESXi Host
 
+docker pull cmer81/prometheus-vmware-exporter
+
 ## Build
 ```sh 
 docker build -t prometheus-vmware-exporter .
